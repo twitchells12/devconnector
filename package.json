@@ -5,14 +5,18 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Steve and Brad Traversy",
   "license": "MIT",
   "dependencies": {
+    "@types/date-fns": "^2.6.0",
     "axios": "^0.20.0",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.2",
+    "date-fns": "^2.16.1",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
     "gravatar": "^1.8.1",
