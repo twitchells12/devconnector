@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const auth = require('../../middleware/auth');
 const { check, validationResult } = require('express-validator');
-const axios = require('raxios');
+const axios = require('axios');
 const config = require('config');
 
 const Profile = require('../../models/Profile');
