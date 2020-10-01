@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://twitch12:invalid12@devconnector.rid6o.mongodb.net/<dbname>?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
-}
