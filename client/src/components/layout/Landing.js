@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { ptBR } from 'date-fns/esm/locale';
 
 const Landing = ({ isAuthenticated }) => {
   if (isAuthenticated) {
