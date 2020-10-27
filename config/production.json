@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://twitch12:invalid12@devconnector.rid6o.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "githubToken": "a0f19aead0ba6a15dee862a0e2a352c62b3de8fe"
+  }
+  
